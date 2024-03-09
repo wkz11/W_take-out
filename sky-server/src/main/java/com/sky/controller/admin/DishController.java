@@ -99,7 +99,8 @@ public class DishController {
         dishService.updateWithFlavor(dishDTO);
 
         return Result.success();
-    }}
+    }
+}
 
 
 
