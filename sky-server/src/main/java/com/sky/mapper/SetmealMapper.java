@@ -23,6 +23,13 @@ public interface SetmealMapper {
      */
     List<Setmeal> list(Setmeal setmeal);
     /**
+     * 根据id修改套餐
+     *
+     * @param setmeal
+     */
+    @AutoFill(OperationType.UPDATE)
+    void update(Setmeal setmeal);
+    /**
      * 根据分类id查询套餐的数量
      *
      * @param id
