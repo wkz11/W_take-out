@@ -122,7 +122,6 @@ public class DishController {
         cleanCache("dish_*");
         return Result.success();
     }
-
     /**
      * 根据分类id查询菜品
      *
@@ -134,7 +133,6 @@ public class DishController {
     public Result<List<Dish>> list(Long categoryId) {
         List<Dish> list = dishService.list(categoryId);
         return Result.success(list);
-        //
     }
     //清理缓存数据
     private void cleanCache(String pattern){
