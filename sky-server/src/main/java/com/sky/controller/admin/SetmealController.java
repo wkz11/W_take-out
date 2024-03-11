@@ -1,4 +1,4 @@
-package com.sky.controller.user;
+package com.sky.controller.admin;
 
 import com.sky.constant.StatusConstant;
 import com.sky.entity.Setmeal;
